@@ -1,6 +1,12 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
+bot.on("message", (message) => {
+  if(message.content === "Yo") {
+    message.channel.send("plait ;)");
+  }
+});
+
 bot.on('ready', function() {
     bot.user.setGame("Câliner Nara");
     console.log('Connected')
