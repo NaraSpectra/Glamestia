@@ -2,8 +2,8 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on('ready', function() {
-    bot.user.setGame("Stalk my master");
+    bot.user.setGame("Câliner Nara");
     console.log('Connected')
 });
 
-bot.login('Mzk5OTI4OTc3NjkyNTU3MzIy.DTduwg.yllGyCI8HulOTLGWMHQeDC9_-Vg')
+bot.login('NDAwNjI4NDYwOTc4MDQ0OTM4.DTeaJA.2V7bQv35bTPqEtmpqojaClGfXVM')
